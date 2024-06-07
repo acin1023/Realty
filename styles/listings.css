@@ -17,6 +17,8 @@
 .card__title {
     margin-top: 1rem;
     font-size: var(--size-lg);
+    text-decoration: none;
+    color: whitesmoke;
 
 }
 
