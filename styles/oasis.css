@@ -1,32 +1,33 @@
---clr-zinc950: #09090b;
---clr-light: aliceblue;
---clr-light-secondary: whitesmoke;
---clr-main: #2f617c;
---clr-cyan500: #0ea5e9;
---clr-cyan600: #0284c7;
---clr-cyan700: #0e7490;
---clr-blue500: #3b82f6;
---clr-sky100: #e0f2fe;
---clr-sky900: #0c4a6e;
+:root {
+    --clr-zinc950: #09090b;
+    --clr-light: aliceblue;
+    --clr-light-secondary: whitesmoke;
+    --clr-main: #2f617c;
+    --clr-cyan500: #0ea5e9;
+    --clr-cyan600: #0284c7;
+    --clr-cyan700: #0e7490;
+    --clr-blue500: #3b82f6;
+    --clr-sky100: #e0f2fe;
+    --clr-sky900: #0c4a6e;
 
 
 
-/* flex basis sizing  */
---size-xxs: 0.5rem;
---size-xs: 0.75rem;
---size-s: 0.875rem;
---size-base: 1rem;
---size-lg: 1.125rem;
---size-xl: 1.25rem;
---size-2xl: 1.5rem;
---size-3xl: 1.875rem;
---size-4xl: 2.25rem;
---size-5xl: 3rem;
---size-6xl: 3.75rem;
---size-7xl: 4.5rem;
---size-8xl: 6rem;
---size-9xl: 8rem;
---size-10xl: 10rem;
+    /* flex basis sizing  */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-s: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
 }
 
 .oasis__container {
