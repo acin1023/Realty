@@ -1,0 +1,121 @@
+.slogan-header {
+    text-align: center;
+    font-size: var(--size-base);
+}
+
+.slogan-description {
+    text-align: center;
+    margin: 2rem;
+    font-size: var(--size-s);
+    width: auto;
+}
+
+.statement-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: var(--size-base);
+}
+
+.statement-description {
+    font-size: var(--size-s);
+    width: fit-content;
+    text-align: center;
+}
+
+.mission-statements {
+    --bg-image: url(../images/about\ us\ img\ prim.jpg);
+    --bg-image-opacity: .4;
+    background-position: 60% 60%;
+    padding: 8em;
+    color: whitesmoke;
+    place-content: center;
+    display: grid;
+    gap: 3rem;
+    position: relative;
+    isolation: isolate;
+}
+
+
+/* Inset property is short for top, right, bottom, left */
+
+.mission-statements::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: var(--bg-image-opacity);
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* xs screens */
+/* @media (min-width: 475px) {} */
+
+/* small screens */
+/* @media (min-width: 648px) {} */
+
+/* medium screens */
+@media (min-width: 768px) {
+    .slogan-header {
+        text-align: center;
+        font-size: var(--size-lg);
+    }
+
+    .statement-title {
+        font-size: var(--size-lg);
+    }
+
+    .statement-description {
+        font-size: var(--size-base);
+    }
+}
+
+/* l screens */
+@media (min-width: 1024px) {
+
+    .slogan-header {
+        font-size: var(--size-2xl);
+    }
+
+    .slogan-description {
+        font-size: var(--size-base);
+
+    }
+
+
+    .statement-title {
+        font-size: var(--size-xl);
+    }
+
+    .statement-description {
+        font-size: var(--size-lg);
+    }
+}
+
+/* xl screens */
+@media (min-width: 1280px) {
+
+    .slogan-header {
+        text-align: center;
+        font-size: var(--size-4xl);
+    }
+
+    .slogan-description {
+        font-size: var(--size-lg);
+
+    }
+
+    .statement-title {
+        font-size: var(--size-3xl);
+    }
+
+    .statement-description {
+        font-size: var(--size-xl);
+    }
+}
+
+/* 2xl screens
+@media (min-width: 1536px) {} */
