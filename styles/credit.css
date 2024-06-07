@@ -1,0 +1,425 @@
+.repair-intro {
+    text-align: center;
+}
+
+.repair-heading {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.repair-subheading {
+    font-size: var(--size-s);
+    max-width: auto;
+    text-wrap: balance;
+}
+
+.repair-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    place-items: center;
+}
+
+
+.repair-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+}
+
+
+.repair-para {
+    line-height: 1rem;
+    font-size: var(--size-s);
+    font-weight: 500;
+}
+
+.consultation-section {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 2rem;
+    gap: 1.5rem;
+    align-content: center;
+
+}
+
+
+.consultation-heading {
+    font-size: var(--size-base);
+    margin-bottom: 1rem;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.consultation-para {
+    line-height: 1.5rem;
+    font-size: var(--size-s);
+
+}
+
+
+
+
+.form-header {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: var(--size-base);
+}
+
+input,
+textarea {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+
+.consultation-button {
+    margin-left: auto;
+    align-content: center;
+    font-size: var(--size-base);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+
+.faq-section {
+    border-top: solid;
+    place-items: center;
+}
+
+.title {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: var(--size-4xl);
+}
+
+
+.accordion {
+    margin: 1rem auto;
+    width: auto;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border-bottom: 4px solid var(--clr-sky900);
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: var(--size-base);
+    font-weight: 800;
+    text-wrap: balance;
+    cursor: pointer;
+}
+
+label::before {
+    content: '+';
+    margin-right: 1rem;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .answer {
+    line-height: 1.2rem;
+    font-size: var(--size-s);
+    max-height: 0;
+    overflow: hidden;
+    padding: 1rem;
+    transition: max-height .5s ease-out;
+}
+
+.accordion input[type="radio"]:checked+label+.answer {
+    max-height: 400px;
+    padding: 1rem;
+}
+
+.accordion input[type="radio"]:checked+label::before {
+    content: '-';
+}
+
+/* xs screens */
+@media (min-width: 425px) {
+    .repair-heading {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: var(--size-2xl);
+
+    }
+
+
+    .title {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: var(--size-3xl);
+    }
+
+    .consultation-section {
+        width: auto;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        align-content: center;
+
+    }
+
+    .consultation-heading {
+        font-size: var(--size-base);
+        margin-bottom: 1rem;
+        text-align: center;
+        text-wrap: balance;
+        width: auto;
+    }
+
+    .consultation-para {
+        line-height: 1.5rem;
+        font-size: var(--size-s);
+
+    }
+
+    .consultation-button {
+        font-size: var(--size-base);
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-left: 8rem;
+    }
+}
+
+/* small screens */
+/* @media (max-width: 648px) {
+    .consultation-button {
+        margin-left: 8rem;
+}
+} */
+
+/* medium screens */
+@media (min-width: 768px) {
+    .repair-heading {
+        font-size: var(--size-3xl);
+    }
+
+    .repair-subheading {
+        font-size: var(--size-base);
+
+    }
+
+    .repair-para {
+        line-height: 1.5rem;
+        font-size: var(--size-s);
+        font-weight: 500;
+        margin-left: 1rem;
+
+    }
+
+    .form-header {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: var(--size-base);
+    }
+
+    .consultation-button {
+        font-size: var(--size-lg);
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 16rem;
+    }
+
+    .accordion li label {
+        font-size: var(--size-xl);
+        font-weight: 800;
+        text-wrap: balance;
+        cursor: pointer;
+    }
+
+    .accordion .answer {
+        line-height: 1.2rem;
+        font-size: var(--size-base);
+    }
+
+
+
+}
+
+@media (min-width: 769px) {
+    .repair-container {
+        width: 90%;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+
+    .consultation-button {
+        font-size: var(--size-lg);
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 16rem;
+    }
+}
+
+
+/* l screens */
+@media (max-width: 1023px) {
+    .repair-container {
+        width: 90%;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+
+    .consultation-button {
+        font-size: var(--size-lg);
+        padding-left: 3rem;
+        padding-right: 3rem;
+        /* margin-left: 25rem; */
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .repair-heading {
+        font-size: var(--size-4xl);
+    }
+
+    .repair-subheading {
+        font-size: var(--size-lg);
+
+    }
+
+    .repair-container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        gap: 1rem;
+        margin: 2rem 3rem;
+    }
+
+    .content-left {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+
+    .repair-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    .content-right {
+        grid-column-start: 3;
+        grid-column-end: 5;
+
+    }
+
+    .repair-para {
+        line-height: 1rem;
+        font-size: var(--size-lg);
+        font-weight: 500;
+        margin-left: 3rem;
+        text-align: center line-gap
+    }
+
+    .consultation-section {
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        line-height: 1.5rem;
+        font-weight: 500;
+        margin-left: 5rem;
+        margin-right: 3rem;
+        gap: 1rem;
+        align-content: center;
+
+    }
+
+    .consultation-heading {
+        font-size: var(--size-3xl);
+
+    }
+
+    .consultation-para {
+        line-height: 1.6rem;
+        font-size: var(--size-lg);
+        /* text-align: center; */
+
+    }
+
+    .consultation-button {
+        font-size: var(--size-lg);
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-left: 8rem;
+    }
+
+    .form-header {
+        font-size: var(--size-2xl);
+    }
+
+    .accordion li label {
+        font-size: var(--size-3xl);
+    }
+
+    .accordion .answer {
+        font-size: var(--size-lg);
+
+    }
+
+
+}
+
+
+
+/* xl screens */
+@media (min-width: 1280px) {
+
+
+    .consultation-button {
+        font-size: var(--size-lg);
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+    }
+
+    .form-header {
+        font-size: var(--size-3xl);
+    }
+
+
+
+}
+
+@media (max-width: 1280px) {
+    /* .repair-container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        align-content: center;
+    } */
+
+}
+
+
+/* 2xl screens
+/*  */
+@media (min-width: 1536px) {
+    .repair-container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+        gap: 1rem;
+        margin: 2rem 15rem;
+    }
+}
