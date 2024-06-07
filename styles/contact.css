@@ -1,0 +1,224 @@
+.contact-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    margin: 2rem;
+    place-items: center;
+    gap: 2rem;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact__us-form {
+    width: auto;
+    font-family: cinzel, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin: .6rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    background: var(--clr-light);
+    color: var(--clr-zinc950);
+    font-size: var(--size-base);
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.contact__button {
+    font-size: var(--size-s);
+    margin-left: 1rem;
+    place-items: center;
+}
+
+.map-container {
+    height: 25rem;
+    width: 100%;
+    margin: 1rem;
+    align-content: center;
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+}
+
+.dellas__info {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    gap: 1rem;
+
+}
+
+.info__subtitle {
+    font-size: var(--size-lg);
+    color: var(--clr-sky900);
+    font-weight: 800;
+}
+
+.info__description {
+    font-size: var(--size-xs);
+}
+
+.number-info {
+    grid-column-start: 1;
+    font-size: var(--size-base);
+}
+
+.social__icons a {
+    text-decoration: none;
+    margin: 1rem;
+    color: var(--clr-sky100);
+    font-size: var(--size-lg);
+    display: inline-block;
+    transition: transform 0.5s;
+    isolation: isolate;
+    place-content: center;
+}
+
+.social__icons a:hover {
+    color: var(--clr-sky900);
+    transform: translateY(-0.8rem);
+    isolation: isolate;
+}
+
+/* xs screens */
+@media (min-width: 425px) {
+
+
+    .contact-container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+
+    .contact__button {
+        margin-left: 8rem;
+
+
+    }
+
+    .info__subtitle {
+        margin-bottom: .5rem;
+    }
+
+
+    .social__icons a {
+
+        margin: 0.5rem;
+        display: grid;
+        grid-template: max-content;
+        grid-template-columns: 1fr;
+
+
+    }
+
+    .social__icons a:hover {
+        transform: translateY(-0.5rem);
+
+    }
+
+
+}
+
+/* small screens */
+/* @media (min-width: 648px) {} */
+
+/* medium screens */
+/* @media (min-width: 768px) {} */
+
+/* l screens */
+@media (min-width: 1024px) {
+
+    .contact-container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+        margin: 2rem;
+        place-items: center;
+        gap: 2rem;
+    }
+
+    .contact__us-form {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .contact__button {
+        font-size: var(--size-lg);
+        margin-bottom: 1rem;
+    }
+
+
+
+    .info__subtitle {
+        font-size: var(--size-2xl);
+
+    }
+
+    .info__description {
+        font-size: var(--size-s);
+    }
+
+
+    .social__icons a {
+        margin: 1rem;
+        font-size: var(--size-2xl);
+        display: inline-block;
+        transition: transform 0.5s;
+        isolation: isolate;
+        place-content: center;
+    }
+
+    .social__icons a:hover {
+        transform: translateY(-1rem);
+        isolation: isolate;
+    }
+}
+
+/* xl screens */
+@media (min-width: 1280px) {
+    .contact__button {
+        font-size: var(--size-lg);
+        margin-bottom: 1rem;
+    }
+
+    .info__subtitle {
+        font-size: var(--size-4xl);
+
+    }
+
+    .info__description {
+        font-size: var(--size-lg);
+    }
+
+
+    .social__icons a {
+        margin: 1rem;
+        font-size: var(--size-4xl);
+        display: inline-block;
+        transition: transform 0.5s;
+        isolation: isolate;
+        place-content: center;
+    }
+
+    .social__icons a:hover {
+        transform: translateY(-1rem);
+        isolation: isolate;
+    }
+}
+
+/* 2xl screens
+@media (min-width: 1536px) {} */
