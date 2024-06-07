@@ -1,5 +1,5 @@
 .hero {
-    --bg-image: url(/Images/interior1medium.jpeg);
+    --bg-image: url(../images/interior1medium.jpeg);
     --bg-image-opacity: .5;
     padding: 6rem;
     place-content: center;
