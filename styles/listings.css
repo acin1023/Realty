@@ -29,6 +29,7 @@
 
 .pr {
     --bg-image: url(../images/PR.JPG);
+
     --bg-image-opacity: .6;
     padding: 8rem;
     margin: 0 auto;
