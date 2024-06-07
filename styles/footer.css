@@ -1,0 +1,39 @@
+.footer__hr {
+    border-color: var(--clr-sky100);
+    width: auto;
+}
+
+
+
+/* xs screens */
+/* @media (min-width: 475px) {} */
+
+/* small screens */
+/* @media (min-width: 648px) {} */
+
+/* medium screens */
+@media (min-width: 768px) {
+    .footer__title {
+        font-size: var(--size-xl);
+
+    }
+}
+
+/* l screens */
+@media (min-width: 1024px) {
+    .footer__title {
+        font-size: var(--size-2xl);
+
+    }
+}
+
+/* xl screens */
+@media (min-width: 1280px) {
+    .footer__title {
+        font-size: var(--size-3xl);
+
+    }
+}
+
+/* 2xl screens
+@media (min-width: 1536px) {} */
