@@ -56,7 +56,7 @@
 
 
 .testimony-container {
-    --bg-image: url(/Images/client\ bg\ copy.jpeg);
+    --bg-image: url(../images/client\ bg\ copy.jpeg);
     --bg-image-opacity: .4;
     position: relative;
     isolation: isolate;
