@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/modern-normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/listings.css" />
+    <link rel="stylesheet" href="oasis.html" />
+    <link rel="stylesheet" href="styles/oasis.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/credit.css" />
+    <link rel="stylesheet" href="styles/shop.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Listings</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="header__link" href="listings.html">Listings</a>
+          </li>
+          <li>
+            <a class="header__link" href="about.html">About Us</a>
+          </li>
+          <li>
+            <a class="header__link" href="credit.html">Credit Repair</a>
+          </li>
+          <li>
+            <a class="header__link" href="shop.html">Shop</a>
+          </li>
+          <li>
+            <a class="header__link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="card-listing">
+      <h1 class="listing-title" data-aos="fade-down">Our Listings</h1>
+      <div class="listing-container">
+        <article class="listings">
+          <a href="./oasis.html">
+            <img
+              class="oasis"
+              src="/Images/Pocono Oasis Primary.JPG"
+              data-aos="fade-up"
+              alt="Oasis Cabin Pic"
+            />
+          </a>
+          <div class="listing-detail" data-aos="fade-down">
+            <h3 class="card__title">Poconos Oasis</h3>
+            <p class="card__description">
+              3 bedrooms, 2 bathrooms <br />
+              2,100 Sq Ft.
+            </p>
+          </div>
+        </article>
+        <article class="listings">
+          <img
+            src="Images/Cozy primary.jpeg"
+            data-aos="fade-up"
+            alt="Cabin Pic"
+          />
+          <div class="listing-detail" data-aos="fade-down">
+            <h3 class="card__title">Cozy Mt. Poconos Cabin</h3>
+            <p class="card__description">
+              3 bedrooms, 3 bathrooms <br />
+              1,235 Sq Ft.
+            </p>
+          </div>
+        </article>
+        <article class="listings">
+          <img
+            src="Images/Cabin primary.jpeg"
+            data-aos="fade-up"
+            alt="Poconos Cabin Pic"
+          />
+          <div class="listing-detail" data-aos="fade-down">
+            <h3 class="card__title">Beautiful Mt. Poconos Cabin</h3>
+            <p class="card__description">
+              3 bedrooms, 2 bathrooms <br />
+              1,235 Sq Ft.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <div class="pr">
+      <div class="pr-heading" data-aos="fade-right">
+        <h1 class="pr-title-1">Exclusive Listing</h1>
+        <h2 class="pr-title-2">Don't Miss This Opportunity!</h2>
+      </div>
+      <div class="pr-description">
+        <p data-aos="fade-left">
+          Escape to paradise in this stunning 2 bedroom condo, nestled in the
+          heart of Puerto Rico’s tropical paradise. Located in Condado just 2
+          blocks away from the beach. This condo is perfect for a getaway and is
+          just one block from Ashford Ave. No need for a car since everything is
+          within walking distance and convenienty located. Contact us directly
+          to book this beautiful gem!
+        </p>
+        <button class="btn pr-btn" data-aos="fade-up">Learn More!</button>
+      </div>
+    </div>
+    <footer class="footer container section">
+      <hr class="footer__hr" />
+      <h3 class="footer__title">~ Della's Realty Group ~</h3>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
