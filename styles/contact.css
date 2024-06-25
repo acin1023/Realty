@@ -44,8 +44,7 @@ form textarea {
     width: 100%;
     margin: 1rem;
     align-content: center;
-    /* grid-column-start: 2;
-    grid-column-end: 4; */
+
 }
 
 .dellas__info {
@@ -92,27 +91,38 @@ form textarea {
 }
 
 /* xs screens */
-@media (min-width: 425px) {
+@media (min-width: 320px) {
 
 
     .contact-container {
-        width: 80%;
+        width: 85%;
         display: grid;
         grid-template-columns: 1fr;
         padding: 0;
+        align-content: center;
     }
 
 
+    .header__link {
+        font-size: var(--size-xs);
+        padding: 0;
+    }
+
+    .contact-heading {
+        text-align: center;
+
+    }
+
     .contact__button {
-        margin-left: 8rem;
-
-
+        font-size: var(--size-s);
+        margin-bottom: 1rem;
+        margin-left: auto;
     }
 
     .info__subtitle {
         margin-bottom: .5rem;
+        font-size: var(--size-base);
     }
-
 
     .social__icons a {
 
@@ -120,9 +130,8 @@ form textarea {
         display: grid;
         grid-template: max-content;
         grid-template-columns: 1fr;
-
-
     }
+
 
     .social__icons a:hover {
         transform: translateY(-0.5rem);
