@@ -93,7 +93,7 @@ textarea {
 
 .faq-section {
     border-top: solid;
-    place-items: center;
+    justify-items: center;
 }
 
 .title {
@@ -154,7 +154,7 @@ input[type="radio"] {
 }
 
 /* xs screens */
-@media (min-width: 425px) {
+@media (min-width: 320px) {
     .repair-heading {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -173,7 +173,7 @@ input[type="radio"] {
     .consultation-section {
         width: auto;
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1rem;
         align-content: center;
 
     }
@@ -187,16 +187,17 @@ input[type="radio"] {
     }
 
     .consultation-para {
-        line-height: 1.5rem;
+        line-height: 1.8rem;
         font-size: var(--size-s);
+        text-align: center;
 
     }
 
     .consultation-button {
         font-size: var(--size-base);
-        padding-left: 2rem;
-        padding-right: 2rem;
-        margin-left: 8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: auto;
     }
 }
 
