@@ -103,10 +103,7 @@ form textarea {
     }
 
 
-    .header__link {
-        font-size: var(--size-xs);
-        padding: 0;
-    }
+
 
     .contact-heading {
         text-align: center;

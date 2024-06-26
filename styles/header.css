@@ -63,7 +63,12 @@
 
 
 /* xs screens */
-/* @media (min-width: 475px) {} */
+@media (min-width: 320px) {
+    .header__link {
+        font-size: var(--size-xs);
+        padding: 0;
+    }
+}
 
 /* small screens */
 /* @media (min-width: 648px) {} */
@@ -85,7 +90,7 @@
     }
 
     .header__link {
-        font-size: var(--size-lg);
+        font-size: var(--size-base);
 
     }
 }
