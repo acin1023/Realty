@@ -78,7 +78,7 @@
 }
 
 /* xs screens */
-@media (min-width: 425px) {
+@media (min-width: 320px) {
     .book-header {
         font-size: var(--size-base);
     }
