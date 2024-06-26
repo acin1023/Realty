@@ -88,7 +88,7 @@
 }
 
 /* xs screens */
-@media (min-width: 425px) {
+@media (min-width: 320px) {
     .return {
         font-size: var(--size-xs);
     }
