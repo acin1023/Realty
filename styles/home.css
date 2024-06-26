@@ -122,7 +122,7 @@
 }
 
 /* xs screens */
-@media (min-width: 425px) {
+@media (min-width: 320px) {
 
     .hero-title {
         margin-bottom: 1rem;
