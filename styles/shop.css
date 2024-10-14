@@ -44,9 +44,6 @@
     grid-column-end: 3;
     margin-top: 1rem;
     margin-bottom: 3rem;
-    max-width: 100%;
-    height: auto;
-
 }
 
 .book-details {
@@ -91,8 +88,8 @@
     }
 
     .book-img {
-        max-width: 50%;
-        height: 55%;
+        max-width: 100%;
+        height: auto;
         margin-top: 1rem;
 
 
