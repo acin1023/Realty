@@ -163,6 +163,11 @@ input[type="radio"] {
 
     }
 
+    .repair-para {
+        width: 70vw;
+        text-align: center;
+    }
+
 
     .title {
         margin-top: 2rem;
