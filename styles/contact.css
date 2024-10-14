@@ -55,7 +55,6 @@ form textarea {
     justify-content: space-around;
     margin-bottom: 2rem;
     gap: 1rem;
-
 }
 
 .info__subtitle {
@@ -103,6 +102,15 @@ form textarea {
     }
 
 
+    .dellas__info {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        place-items: center;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+        gap: 1rem;
+    }
 
 
     .contact-heading {
