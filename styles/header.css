@@ -66,7 +66,7 @@
 @media (min-width: 320px) {
     .header__link {
         font-size: var(--size-xs);
-        padding: 0;
+        padding: 10rem;
     }
 }
 
