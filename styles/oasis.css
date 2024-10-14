@@ -90,6 +90,7 @@
 @media (min-width: 320px) {
     .return {
         font-size: var(--size-xs);
+        text-decoration: none;
     }
 
     .oasis-details {
