@@ -46,6 +46,7 @@
     list-style: none;
     width: 100%;
     gap: 1rem;
+    padding: 0;
 }
 
 .header__link {
@@ -66,7 +67,8 @@
 @media (min-width: 320px) {
     .header__link {
         font-size: var(--size-xs);
-        padding: 10rem;
+        padding: 0;
+        text-align: center;
     }
 }
 
