@@ -17,15 +17,25 @@
 
 .repair-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 500px);
     padding: 1rem;
     place-items: center;
+    /* border: 10px solid goldenrod; */
+}
+
+
+
+.content-right p {
+    font-size: var(--size-base);
+    width: 70%;
+    margin: auto;
+
 }
 
 
 .repair-img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    margin-bottom: 0.5rem;
     object-fit: cover;
     /* grid-column-start: 1;
     grid-column-end: 3; */
