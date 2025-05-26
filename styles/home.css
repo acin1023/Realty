@@ -1,6 +1,6 @@
 .hero {
-    --bg-image: url(../images/interior1medium.jpeg);
-    --bg-image-opacity: .5;
+    --bg-image: url(../images/bg.jpeg);
+    --bg-image-opacity: .3;
     padding: 6rem;
     place-content: center;
     position: relative;
@@ -57,7 +57,7 @@
 
 .testimony-container {
     --bg-image: url(../images/client\ bg\ copy.jpeg);
-    --bg-image-opacity: .4;
+    --bg-image-opacity: .3;
     position: relative;
     isolation: isolate;
     padding: 6rem;
